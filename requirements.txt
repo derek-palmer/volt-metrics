@@ -1,0 +1,14 @@
+ipaddress==1.0.18
+ipykernel==4.6.1
+ipython==5.3.0
+ipython-genutils==0.2.0
+jupyter==1.0.0
+jupyter-client==5.0.1
+jupyter-console==5.1.0
+jupyter-core==4.3.0
+jupyterthemes==0.16.1
+numpy==1.12.1
+openpyxl==2.4.7
+packaging==16.8
+pandas==0.20.1
+XlsxWriter==0.9.6
