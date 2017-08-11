@@ -1,0 +1,6 @@
+volt-analytics:
+  build: .
+  volumes:
+    - ./jupyter:/home/tools
+  ports:
+    - "8888:8888"

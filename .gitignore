@@ -1,0 +1,4 @@
+*.pyc
+*.env
+*.p
+credentials.py
