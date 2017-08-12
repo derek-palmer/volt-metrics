@@ -28,4 +28,10 @@ RUN dpkg-reconfigure -f noninteractive tzdata
 # Add in our working data
 RUN mkdir /home/tools
 COPY jupyter /home/tools
+COPY acquireData.py /home/tools
+COPY credentials.py /home/tools
 WORKDIR /home/tools
+
+RUN chmod +x /start.sh
+
+ENTRYPOINT ["/start.sh"]
