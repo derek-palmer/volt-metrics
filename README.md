@@ -1,4 +1,3 @@
-brew install selenium-server-standalone chromedriver
+sudo pip install selenium
 
-
-docker-compose run --service-ports volt-analytics ./run_jupyter.sh
+brew install chromedriver
