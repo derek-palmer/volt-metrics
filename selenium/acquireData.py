@@ -34,5 +34,5 @@ login_attempt.submit()
 
 dailyDownload_attempt = driver.find_element_by_xpath(dailyDownload).click()
 readingDownload_attempt = driver.find_element_by_xpath(readingDownload).click()
-time.sleep(10)
+
 driver.close()
