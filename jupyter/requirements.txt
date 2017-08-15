@@ -12,3 +12,5 @@ openpyxl==2.4.7
 packaging==16.8
 pandas==0.20.1
 XlsxWriter==0.9.6
+selenium==3.5.0
+credentials==1.1
