@@ -2,3 +2,4 @@
 *.env
 *.p
 credentials.py
+jupyter/volume/data/
