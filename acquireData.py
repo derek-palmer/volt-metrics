@@ -10,7 +10,7 @@ usernameStr = credentials.login['username']
 passwordStr = credentials.login['password']
 
 chromeOptions = Options()
-workingDir = os.getcwd() + '/jupyter/data'
+workingDir = os.getcwd() + '/jupyter/volume/data'
 
 dailyDownload = '//input[@type="submit" and @value="Download Daily Data"]'
 readingDownload = '//input[@type="submit" and @value="Download Reading Data"]'
