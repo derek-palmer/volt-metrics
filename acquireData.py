@@ -10,13 +10,13 @@ usernameStr = credentials.login['username']
 passwordStr = credentials.login['password']
 
 chromeOptions = Options()
-dataDir = os.getcwd() + '/data'
+workingDir = os.getcwd() + '/jupyter/volume/data'
 
 dailyDownload = '//input[@type="submit" and @value="Download Daily Data"]'
 readingDownload = '//input[@type="submit" and @value="Download Reading Data"]'
 
 
-prefs = {'profile.default_content_setting_values.automatic_downloads': 1, 'download.default_directory' : dataDir}
+prefs = {'profile.default_content_setting_values.automatic_downloads': 1, 'download.default_directory' : workingDir}
 chromeOptions.add_experimental_option("prefs", prefs)
 
 driver = webdriver.Chrome(chrome_options=chromeOptions)
