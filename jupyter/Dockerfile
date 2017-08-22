@@ -2,8 +2,8 @@ FROM python:2.7
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
-python-pip \
-python-dev
+    python-pip \
+    python-dev
 
 # Expose 8888 for Jupyter notebook
 EXPOSE 8888

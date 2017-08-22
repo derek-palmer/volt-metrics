@@ -12,3 +12,4 @@ openpyxl==2.4.8
 packaging==16.8
 pandas==0.20.3
 XlsxWriter==0.9.8
+gsheets==0.3
