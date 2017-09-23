@@ -3,3 +3,4 @@
 *.p
 credentials.py
 jupyter/volume/data/
+jupyter/volume/output/
