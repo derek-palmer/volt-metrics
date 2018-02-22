@@ -2,5 +2,7 @@
 *.env
 *.p
 credentials.py
-jupyter/volume/data/
-jupyter/volume/output/
+volt-metrics/volume/data/
+volt-metrics/volume/output/
+docker-compose-local-dev.yml
+
