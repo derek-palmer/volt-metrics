@@ -2,7 +2,7 @@
 
 **Readme is not complete**
 
-Currently I’m commuting 4 days a week from Rochester to Ithaca, NY with a round trip of ~200 miles a day. I’m trying to find the most efficient and optimal route to and from my daily destinations. I wanted to learn more about the technologies below and I thought this would be a cool way to do it.
+Some time ago, I was commuting 4 days a week from Rochester to Ithaca, NY with a round trip of ~200 miles a day. I was trying to find the most efficient and optimal route to and from my daily destinations. I wanted to learn more about the technologies below and I thought this would be a cool way to do it. I also didn't like the way volt-stats displayed the data through their visualizations so I decided to do it myself.
 
 ## Getting Started
 
@@ -35,10 +35,17 @@ login = {
 }
 ```
 
-## Running App
+## Running
+
+Acquire the data:
 
 ```
-./start.sh
+make volt-data
+```
+
+Run Jupyter notebook:
+```
+make jupyter
 ```
 
 ## Built With
@@ -48,9 +55,7 @@ login = {
 * [Jupyter Notebooks](http://jupyter.org/) - 
 * [Pandas](http://pandas.pydata.org/) - 
 * [Volt Stats](https://www.voltstats.net/) - 
-* [Travis-CI](https://travis-ci.org) - 
-* [Amazon EC2](https://aws.amazon.com/ec2/) - 
-* [Google Sheets](https://www.google.com/sheets/about/) - 
+* [AWS S3](https://aws.amazon.com/s3/) - 
 * [Reflect.io](https://reflect.io) - 
 
 

@@ -10,7 +10,7 @@ usernameStr = credentials.login['username']
 passwordStr = credentials.login['password']
 
 chromeOptions = Options()
-workingDir = os.getcwd() + '/jupyter/volume/data'
+workingDir = os.getcwd() + '/volt-metrics/volume/data'
 
 dailyDownload = '//input[@type="submit" and @value="Download Daily Data"]'
 readingDownload = '//input[@type="submit" and @value="Download Reading Data"]'
@@ -21,7 +21,7 @@ chromeOptions.add_experimental_option("prefs", prefs)
 
 driver = webdriver.Chrome(chrome_options=chromeOptions)
 
-driver.get("https://www.voltstats.net/Account/Login") 
+driver.get("https://www.voltstats.net/Account/Login")
 
 username = driver.find_element_by_id("Username")
 password = driver.find_element_by_id("Password")

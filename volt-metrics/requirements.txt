@@ -1,0 +1,13 @@
+ipaddress==1.0.19
+ipykernel==4.8.1
+ipython==5.5.0
+ipython-genutils==0.2.0
+jupyter==1.0.0
+jupyter-client==5.2.2
+jupyter-console==5.2.0
+jupyter-core==4.4.0
+jupyterthemes==0.18.3
+numpy==1.14.0
+packaging==16.8
+pandas==0.22.0
+boto3==1.5.32
