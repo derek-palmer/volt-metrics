@@ -5,5 +5,8 @@ credentials.py
 volt-metrics/volume/data/
 volt-metrics/volume/output/
 docker-compose-local-dev.yml
-jupyter/
-
+jupyter/volume/data/*
+jupyter/volume/output/*
+jupyter/volume/.ipynb_checkpoints/
+!jupyter/volume/data/.gitkeep
+!jupyter/volume/output/.gitkeep

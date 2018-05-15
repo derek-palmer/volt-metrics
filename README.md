@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you'll need
+What things you'll need (installed on your local machine):
 
 * Python
 * Python Modules:
