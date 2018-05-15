@@ -50,21 +50,20 @@ make jupyter
 
 ## Built With
 
-* [Docker](https://www.docker.com/) - 
-* [Selenium](http://www.seleniumhq.org/) - 
-* [Jupyter Notebooks](http://jupyter.org/) - 
-* [Pandas](http://pandas.pydata.org/) - 
-* [Volt Stats](https://www.voltstats.net/) - 
-* [AWS S3](https://aws.amazon.com/s3/) - 
-* [Reflect.io](https://reflect.io) - 
+* [Docker](https://www.docker.com/)
+* [Selenium](http://www.seleniumhq.org/)
+* [ChromeDriver](http://chromedriver.chromium.org/)
+* [Jupyter Notebooks](http://jupyter.org/)
+* [Pandas](http://pandas.pydata.org/)
+* [Volt Stats](https://www.voltstats.net/)
+* [AWS S3](https://aws.amazon.com/s3/)
+* [Reflect.io](https://reflect.io)
 
 
 ## Authors
 
-* **[Derek Palmer](https://github.com/derek-palmer)** 
+* **[Derek Palmer](https://github.com/derek-palmer)**
 
 ## License
 
 This project is licensed under the MIT License - see the [MIT License](https://derek-palmer.mit-license.org/) link for details
-
-## Acknowledgments
