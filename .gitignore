@@ -1,7 +1,9 @@
 *.pyc
 *.env
 *.p
+.DS_Store
 credentials.py
+volt-metrics-creds.json
 volt-metrics/volume/data/
 volt-metrics/volume/output/
 docker-compose-local-dev.yml
