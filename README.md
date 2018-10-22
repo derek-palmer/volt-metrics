@@ -24,7 +24,9 @@ Chromedriver
 
 ## Credentials:
 
+* Create Credential file for Volt Stats
 1. Create a credentials.py file in the root directory
+2. Add in voltstats creds
 
 Example for contents:
 
@@ -34,6 +36,17 @@ login = {
     'password' : 'SuperSecretPasswordHere'
 }
 ```
+
+* Create Credentials for Google Sheets - Instructions taken / modified from here: [Reading and writing to Google Spreadsheets using Python](https://erikrood.com/Posts/py_gsheets.html)
+
+1. Head over to the Google API Console.
+2. Create a new project by selecting My Project -> + button
+3. Search for 'Google Sheets API', enable it.
+4. Head over to 'Credentials' (sidebar), click 'Create Credentials' -> 'Service Account Key'
+5. Select Compute Engine service default, JSON, hit create.
+6. Open up the JSON file, share your spreadsheet with the "XXX-compute@developer.gserviceaccount.com" email listed.
+7. Save the JSON file wherever you're hosting your project, you'll need to load it in through Python later.
+8. Rename json file to `volt-metrics-creds.json` and copy to `/volume/`
 
 ## Running
 
@@ -45,7 +58,7 @@ make volt-data
 
 Run Jupyter notebook:
 ```
-make jupyter
+make run_jupyter
 ```
 
 ## Built With
@@ -56,8 +69,8 @@ make jupyter
 * [Jupyter Notebooks](http://jupyter.org/)
 * [Pandas](http://pandas.pydata.org/)
 * [Volt Stats](https://www.voltstats.net/)
-* [AWS S3](https://aws.amazon.com/s3/)
-* [Reflect.io](https://reflect.io)
+* [Google Sheets](https://docs.google.com/spreadsheets/)
+* [Google Data Studio](https://datastudio.google.com)
 
 
 ## Authors

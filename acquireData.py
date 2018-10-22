@@ -32,7 +32,7 @@ password.send_keys(passwordStr)
 login_attempt = driver.find_element_by_xpath("//*[@type='submit']")
 login_attempt.submit()
 
-dailyDownload_attempt = driver.find_element_by_xpath(dailyDownload).click()
 readingDownload_attempt = driver.find_element_by_xpath(readingDownload).click()
+dailyDownload_attempt = driver.find_element_by_xpath(dailyDownload).click()
 
 driver.close()
