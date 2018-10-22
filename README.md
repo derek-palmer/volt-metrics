@@ -58,7 +58,7 @@ make volt-data
 
 Run Jupyter notebook:
 ```
-make jupyter
+make run_jupyter
 ```
 
 ## Built With
