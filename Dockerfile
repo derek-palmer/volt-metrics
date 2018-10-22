@@ -15,7 +15,6 @@ RUN dpkg-reconfigure -f noninteractive tzdata
 
 # Add in our working data
 RUN mkdir /home/tools
-COPY client_id.json /home/tools
 
 # Add python dependencies
 COPY volt-metrics/requirements.txt /home/tools
