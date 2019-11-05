@@ -1,6 +1,6 @@
 # Volt-Analytics
 
-**Readme is not complete**
+ # **No longer under development - I sold my volt**
 
 Some time ago, I was commuting 4 days a week from Rochester to Ithaca, NY with a round trip of ~200 miles a day. I was trying to find the most efficient and optimal route to and from my daily destinations. I wanted to learn more about the technologies below and I thought this would be a cool way to do it. I also didn't like the way volt-stats displayed the data through their visualizations so I decided to do it myself.
 
